@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.heroCard{
+    position: absolute;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    padding: 1rem;
+    width: 90%;
+    max-width: 500px;
+    z-index: 99;
+    border-radius: 8px;
+    bottom: 0;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+h2,p{
+    margin: 1rem 0;
+    text-align: center;
+}
+p{
+    font-size: .9rem;
+}
+img{
+    width: 100%;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+    z-index: 9;
+    width: 110%;
+    height: 300px;
+    object-fit: cover;
+}

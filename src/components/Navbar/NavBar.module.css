@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(145, 3, 3);
+    padding: 1rem;
+    color: white;
+    position: relative;
+    z-index: 999;
+}
+.cart{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 2, 2);
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cartCount{
+    background-color: rgb(145, 3, 3);
+    border-radius: 10px;
+    padding: .2rem .8rem;
+}
+@media(max-width: 400px){
+    .container{
+        flex-direction: column;
+    }
+    .cart{
+        margin: 4px;
+    }
+}
